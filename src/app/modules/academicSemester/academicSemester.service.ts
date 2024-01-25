@@ -10,6 +10,7 @@ import {
 } from './academicSemester.constant';
 import {
   IAcademicSemester,
+  IAcademicSemesterCreatedEvent,
   IAcademicSemesterFilters,
 } from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
@@ -22,6 +23,35 @@ const createSemester = async (
   }
   const result = await AcademicSemester.create(payload);
   return result;
+};
+const createSemesterFromEvent = async (
+  e: IAcademicSemesterCreatedEvent
+): Promise<void> => {
+  await AcademicSemester.create({
+    title: e.title,
+    year: e.year,
+    code: e.code,
+    startMonth: e.startMonth,
+    endMonth: e.endMonth,
+    syncId: e.id,
+  });
+};
+
+const updateOneIntoDBFromEvent = async (
+  e: IAcademicSemesterCreatedEvent
+): Promise<void> => {
+  await AcademicSemester.findOneAndUpdate(
+    { syncId: e.id },
+    {
+      $set: {
+        title: e.title,
+        year: e.year,
+        code: e.code,
+        startMonth: e.startMonth,
+        endMonth: e.endMonth,
+      },
+    }
+  );
 };
 
 const getSingleSemester = async (
@@ -113,6 +143,8 @@ const deleteSemester = async (
 
 export const AcademicSemesterService = {
   createSemester,
+  createSemesterFromEvent,
+  updateOneIntoDBFromEvent,
   getSingleSemester,
   getAllsemesters,
   updateSemester,

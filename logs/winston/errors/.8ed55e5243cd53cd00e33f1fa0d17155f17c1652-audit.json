@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\.8ed55e5243cd53cd00e33f1fa0d17155f17c1652-audit.json",
+    "files": [
+        {
+            "date": 1705897069296,
+            "name": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-22-01-10-error.log",
+            "hash": "4d5570148a8dfb4315e2c5f7c588da7a70df46b2c8c8ee85c117b3ae62295dbc"
+        },
+        {
+            "date": 1705901009386,
+            "name": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-22-01-11-error.log",
+            "hash": "0fa1eaf1e26c77a4ee5456b9bf71fe5dfdcd8e0a4e82ad85f1e824ea6431e4b3"
+        },
+        {
+            "date": 1705903260496,
+            "name": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-22-01-12-error.log",
+            "hash": "7d9ae2a14a8be133ca7739d1cb6fec65b692e9257ce5a45c25652f97f0c201ae"
+        },
+        {
+            "date": 1706114708875,
+            "name": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-24-01-22-error.log",
+            "hash": "60006bb3f01e08807d00d5060a17aafe6852dd44b105f1765403d105148c91bc"
+        },
+        {
+            "date": 1706144307055,
+            "name": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-25-01-06-error.log",
+            "hash": "05465af5615c32a467e7643936154b2e40ae97da80aff28c31b29b4afa8f4b79"
+        },
+        {
+            "date": 1706144740020,
+            "name": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-25-01-07-error.log",
+            "hash": "96a873c1850aaaa2bc4b5ba415b71abee5bb298da573e5093517f8f886b84714"
+        },
+        {
+            "date": 1706156487201,
+            "name": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-25-01-10-error.log",
+            "hash": "ccddb076ab18adee7e22bc924120621aa19ae39b817c46426ed641540f6482a6"
+        },
+        {
+            "date": 1706159290220,
+            "name": "C:\\level two course\\redis\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-25-01-11-error.log",
+            "hash": "fb6a3fa2ff605113e5215a47697638aee67c51a7d499f36ef495d6c19b099ef7"
+        }
+    ],
+    "hashType": "sha256"
+}

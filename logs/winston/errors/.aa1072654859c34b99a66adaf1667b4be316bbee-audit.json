@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\level two course\\node-js\\university-management-auth-service\\logs\\winston\\errors\\.aa1072654859c34b99a66adaf1667b4be316bbee-audit.json",
+    "files": [
+        {
+            "date": 1703247830749,
+            "name": "C:\\level two course\\node-js\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-22-12-18-error.log",
+            "hash": "00c03b29b9f0ac40b6c95383fe31353f06d1ed5ab847c86c5eafe497fb90c065"
+        },
+        {
+            "date": 1703295913721,
+            "name": "C:\\level two course\\node-js\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-12-07-error.log",
+            "hash": "1346a7e4432c5bff8bbe3e8c19c0e7619c4919a7ee6368f9edbb5320da4af363"
+        },
+        {
+            "date": 1703297468559,
+            "name": "C:\\level two course\\node-js\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-12-08-error.log",
+            "hash": "35bbb9e8289702aa1874350928dc432694a6c8ea5df5acf34fab3d8b94933d3c"
+        },
+        {
+            "date": 1703311238574,
+            "name": "C:\\level two course\\node-js\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-12-12-error.log",
+            "hash": "2b1efc1002f630b5a96a65af688c6c68f4247eef088df8b689ee89da1c29e5c5"
+        },
+        {
+            "date": 1704085419866,
+            "name": "C:\\level two course\\node-js\\university-management-auth-service\\logs\\winston\\errors\\phu-2024-01-01-11-error.log",
+            "hash": "d60384498e2ca3c65e8900765694f4b99222a8e8bc50c18cd7b5bb72c63233ca"
+        }
+    ],
+    "hashType": "sha256"
+}
